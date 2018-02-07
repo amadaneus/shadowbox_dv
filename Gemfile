@@ -23,11 +23,38 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.5'
 
+gem 'bootstrap', '~> 4.0.0'
+
+gem 'jquery-rails'
+gem 'popper_js', '~> 1.12.9'
+# gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
 # gem 'redis', '~> 3.0'
 
-# gem 'bcrypt', '~> 3.1.7'
+#User Authentication/Authorization:
+# gem 'bcrypt', '~> 3.1.11', platforms: [:ruby, :mingw, :x64_mingw]
+# gem 'devise', '~> 4.4'
+# gem 'petergate', '~> 1.6', '>= 1.6.3'
 
-# gem 'capistrano-rails', group: :development
+#View Features
+gem 'simple_form', '~> 3.5'
+# gem 'friendly_id', '~> 5.1.0'
+# gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+# gem 'kaminari', '~> 1.1.1'
+# gem 'gritter', '~> 1.2'
+
+# SSL Support for APIs
+# gem 'certified', '~> 1.0'
+# gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+
+#Image Uploading
+# gem 'carrierwave', '~> 1.2', '>= 1.2.2'
+# gem 'mini_magick', '~> 4.8'
+# gem 'carrierwave-aws', '~> 1.3'
+
+#ActionCable Support Gems
+# gem 'cocoon', '~> 1.2', '>= 1.2.11'
+# gem 'redis', '~> 4.0', '>= 4.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
